@@ -1,10 +1,12 @@
 import React from "react";
 import Card from "../UI/Card";
 import OtherLogins from "./OtherLogins";
+import Logo from "./Logo";
 
 const Login = () => {
   return (
     <section>
+      <Logo />
       <Card className="m-auto max-w-[30rem] px-[1.8rem] bg-white rounded-lg h-[33.5rem] border-2 border-[#E6E7EC] py-[1.28rem]">
         <h1 className="text-center text-[#101828] text-[1.5rem] font-normal leading-medium">
           Welcome back!

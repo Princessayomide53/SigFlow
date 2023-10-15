@@ -1,10 +1,12 @@
 import "./App.css";
-import Logo from "./components/Login/Logo";
+import Dashboard from "./components/Dashboard/Dashboard";
+import Login from "./components/Login/Login";
 
 function App() {
   return (
     <div className="">
-      <Logo />
+      <Login />
+      <Dashboard />
     </div>
   );
 }
