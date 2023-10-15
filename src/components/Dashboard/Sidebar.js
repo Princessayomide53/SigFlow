@@ -32,7 +32,7 @@ const Sidebar = () => {
             </div>
           ))}
         </div>
-        <div className="space-y-5 pt-[7rem]">
+        <div className="space-y-5 pt-[9rem]">
           {books.map((items) => (
             <div className="flex gap-[0.75rem] mx-7">
               <img src={items.img} alt="" className="w-[1.25rem] h-[1.25rem]" />
