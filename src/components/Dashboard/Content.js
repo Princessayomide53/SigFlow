@@ -4,7 +4,7 @@ import Main from "./Main";
 
 const Content = () => {
   return (
-    <section className="flex">
+    <section className="flex gap-[1rem]">
       <Sidebar />
       <Main />
     </section>
