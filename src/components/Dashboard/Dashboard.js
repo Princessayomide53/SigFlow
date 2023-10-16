@@ -4,7 +4,7 @@ import Content from "./Content";
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className="">
       <Navbar />
       <Content />
     </div>

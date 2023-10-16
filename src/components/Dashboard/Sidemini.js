@@ -35,7 +35,14 @@ const Sidemini = () => {
   return (
     <div className="space-y-7 pb-5 ">
       {lists.map((list) => (
-        <div key={list.id} className="flex gap-[0.75rem] mx-7">
+        <div
+          key={list.id}
+          className={`${
+            lists.index === 4
+              ? "bg-[#32D583] text-[#32D583]"
+              : "flex gap-[0.75rem] mx-7 hover:text-[#32D583] "
+          }  `}
+        >
           <img src={list.img} alt="" className="w-[1.25rem] h-[1.25rem]" />
           <p className="text-[#828282] text-[0.875rem] font-medium">
             {list.text}

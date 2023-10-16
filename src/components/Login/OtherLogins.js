@@ -22,13 +22,17 @@ const logins = [
 ];
 const OtherLogins = () => {
   return (
-    <div className="flex flex-wrap gap-4 space-x-7 justify-center pt-[1.25rem]">
+    <div className="flex flex-wrap md:gap-4 gap-[7px] space-x-7 justify-center pt-[1.25rem]">
       {logins.map((item) => (
         <div key={item.id} className="flex">
-          <button className="flex border-2 text-[#101828] text-[0.8125rem] font-normal leading-[1.5rem] border-[#D0D5DD] px-[0.7rem] rounded-lg py-[0.5rem]">
+          <button className="flex border-2 text-[#101828] sm:text-[0.8125rem] text-[0.5rem] font-normal leading-[1.5rem] border-[#D0D5DD] px-[0.5rem] sm:px-[0.7rem] rounded-lg py-[0.5rem]">
             {item.text}
-            <span className="ml-2">
-              <img src={item.img} alt="login logos" className="w-7 h-7" />
+            <span className="sm:ml-2 ml-1">
+              <img
+                src={item.img}
+                alt="login logos"
+                className="sm:w-7 sm:h-7 w-2 h-2 mt-[8px] sm:mt-0"
+              />
             </span>
           </button>
         </div>

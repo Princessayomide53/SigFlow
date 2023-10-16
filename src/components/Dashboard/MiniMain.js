@@ -17,10 +17,10 @@ const MiniMain = () => {
           </button>
         </div>
       </div>
-      <div className="flex justify-end py-5 relative">
+      <div className="flex justify-end py-4 relative">
         <input
           type="text"
-          className="px-[0.9rem] border-2 w-[18.5rem] h-[2.25rem] rounded-md border-[#E6E7EC] py-[0.62rem]"
+          className="px-[0.9rem] border-2 w-[18.9rem] h-[2.5rem] rounded-md border-[#E6E7EC] py-[0.62rem]"
           placeholder="Search transformation"
         />
 

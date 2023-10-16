@@ -4,7 +4,7 @@ import Main from "./Main";
 
 const Content = () => {
   return (
-    <section className="flex gap-[0.5rem]">
+    <section className="flex space-[1rem] rounded-md">
       <Sidebar />
       <Main />
     </section>
