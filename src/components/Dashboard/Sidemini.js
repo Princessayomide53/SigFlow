@@ -44,7 +44,13 @@ const Sidemini = () => {
           }  `}
         >
           <img src={list.img} alt="" className="w-[1.25rem] h-[1.25rem]" />
-          <p className="text-[#828282] text-[0.875rem] font-medium">
+          <p
+            className={`${
+              lists.index === 4
+                ? "text-[#32D583] text-[0.875rem] font-medium"
+                : "text-[#828282] text-[0.875rem] font-medium"
+            }`}
+          >
             {list.text}
           </p>
         </div>

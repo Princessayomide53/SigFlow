@@ -14,6 +14,18 @@ function App() {
   async function handleLogin(details) {
     const email = details.email;
     const password = details.password;
+
+    if (
+      email.trim().length === 0 ||
+      password.trim().length === 0 ||
+      password.trim().length < 6 ||
+      !email.includes("@")
+    ) {
+      // toast.error("enter your email && password");
+    } else {
+      // Proceed with your login logic here
+    }
+
     if (
       email === "shalom.111@gmail.com" &&
       password === "shalom.111@gmail.com"

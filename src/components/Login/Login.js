@@ -21,14 +21,11 @@ const Login = (props) => {
 
     if (
       enteredEmail.trim().length === 0 ||
-      enteredPassword.trim().length === 0
-    ) {
-      toast.error("Email and Password are required.");
-    } else if (
+      enteredPassword.trim().length === 0 ||
       enteredPassword.trim().length < 6 ||
       !enteredEmail.includes("@")
     ) {
-      toast.error("Please enter a valid Email and Password.");
+      //   toast.error("invalid mail or password");
     } else {
       // Proceed with your login logic here
     }
@@ -96,7 +93,9 @@ const Login = (props) => {
             Sign In
           </button>
         </form>
-        <p className="text-center pt-[1.25rem]">OR</p>
+        <p className="text-center pt-[1.25rem] text-[1rem] font-semibold text-[#828282)]">
+          OR
+        </p>
         <OtherLogins />
       </Card>
       <p className="text-center sm:pt-1 pt-2 text-[#101828] text-[0.75rem] font-normal leading-9-[1.25rem]">
