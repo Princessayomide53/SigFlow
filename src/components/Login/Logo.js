@@ -5,7 +5,7 @@ import Sigflow from "../../asset/Sigflow.png";
 const Logo = () => {
   return (
     <section>
-      <div className="p-5">
+      <div className="p-5 pl-6">
         <img src={Sigflow} alt="" className="w-[5rem] h-[1.5rem]" />
       </div>
       {/* <Login /> */}

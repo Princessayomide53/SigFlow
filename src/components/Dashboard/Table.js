@@ -16,7 +16,7 @@ const Table = () => {
             <th className="text-start w-[18vw] text-[#828282] text-[0.75rem] font-medium">
               Creation Date
             </th>
-            <th className="text-start w-[13vw] text-[#828282] text-[0.75rem] font-medium">
+            <th className="text-start w-[11vw] text-[#828282] text-[0.75rem] font-medium">
               Status
             </th>
           </tr>
@@ -29,7 +29,7 @@ const Table = () => {
             <td className="text-[#34373F] text-[0.75rem] font-normal text-start w-[18vw]">
               10th Aug, 2023
             </td>
-            <td className="font-medium text-start w-[13vw]">
+            <td className="font-medium text-start w-[11vw]">
               <button className="text-[#32D583] bg-[#32D583] bg-opacity-30 rounded-md text-[0.625rem] px-4 py-2">
                 Paused
               </button>
@@ -45,7 +45,7 @@ const Table = () => {
             <td className="text-[#34373F] text-[0.75rem] font-normal text-start w-[18vw]">
               10th Aug, 2023
             </td>
-            <td className="text-start font-medium w-[13vw]">
+            <td className="text-start font-medium w-[11vw]">
               <button className="bg-[#E0E0E0] text-white bg-opacity-30 rounded-md text-[0.625rem] px-4 py-2">
                 Archived
               </button>
@@ -77,7 +77,7 @@ const Table = () => {
             <td className="text-[#34373F] text-[0.75rem] font-normal text-start w-[18vw]">
               10th Aug, 2023
             </td>
-            <td className="text-white  w-[13vw] text-start font-medium relative inline-block">
+            <td className="text-white  w-[11vw] text-start font-medium relative inline-block">
               <button
                 id="hoverButton"
                 className="bg-[#E0E0E0] mt-3 bg-opacity-30  rounded-md text-[0.625rem] px-4 py-2"
