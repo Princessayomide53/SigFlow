@@ -17,7 +17,7 @@ const books = [
 const Sidebar = () => {
   return (
     <section className="relative max-w-[20rem] w-[15.5rem]  h-full ">
-      <main className=" absolute -top-[4.1rem] left-0 z-20 bg-[#f5f5f5]">
+      <main className=" absolute -top-[4.9rem] left-0 z-20 bg-[#f5f5f5]">
         <Logo />
 
         <div className="flex">
